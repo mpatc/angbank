@@ -6,7 +6,7 @@ app.controller('MainCtrl', function($scope) {
         var account = {
             name: 'YOUR NAME HERE',
             startingBalace: 1000.00,
-            runningBalance: 1024.75
+            runningBalance: 102924.75
         }
         return account;
     };
@@ -51,10 +51,10 @@ app.controller('MainCtrl', function($scope) {
         type: 'debit'
     }, {
         id: 4,
-        amountCred: 100.00,
+        amountCred: 100000.00,
         amount: 100.00,
         description: 'PAYDAY!',
-        runningBalance: 1024.25,
+        runningBalance: 100924.75,
         date: 'september 7',
         type: 'credit'
     }];
