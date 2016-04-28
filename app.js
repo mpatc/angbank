@@ -167,7 +167,7 @@ $('#bankbook').on('show.bs.modal', ".editor", function(event) {
 })
 $('#bankbook').on('show.bs.modal', ".deleter", function(e) {
 
+  console.log(this, e)
     $(this).find('.btn').attr('href', $(e.relatedTarget).data('href'));
-console.log(this, e)
     $('.debug-url').html('Delete URL: <strong>' + $(this).find('.btn-ok').attr('href') + '</strong>');
 });
